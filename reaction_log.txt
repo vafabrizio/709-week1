@@ -1,7 +1,7 @@
 Reaction Log:
 
 a. What are the top things you learned from these out-of-class readings, videos, and exercises?
-
+From the video it really helped me understand why there are so many different languages in terms of wanting source code privacy or when you want the code turned to machine code and how.
 
 b. What information surprised you? What might you share with others or your current/future students?
 
