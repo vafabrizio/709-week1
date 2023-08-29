@@ -21,7 +21,7 @@ public class Guess {
     // pick a random number
     Random random = new Random();
     int number = random.nextInt(100) + 1;
-    System.out.println(number);
+    //System.out.println(number);
 
     //scanner
     Scanner in = new Scanner(System.in);
