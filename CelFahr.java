@@ -18,6 +18,6 @@ public class CelFahr {
 
     double fahr = cel * (9.0/5.0) + 32.0;
 
-    System.out.printf("\n.1f% C = .1f% F\n", cel, fahr);
+    System.out.printf("\n%.1f C = %.1f F\n", cel, fahr);
   }
 }
