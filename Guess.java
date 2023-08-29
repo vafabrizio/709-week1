@@ -26,7 +26,7 @@ public class Guess {
     //scanner
     Scanner in = new Scanner(System.in);
 
-    System.out.print("I'm thinking of a number between 1 and 100 (including both).\nCan you guess what it is?\n\nType a number: ")
+    System.out.print("I'm thinking of a number between 1 and 100 (including both).\nCan you guess what it is?\n\nType a number: ");
     int guess = in.nextInt();
     System.out.println("You guessed: " + guess);
 
