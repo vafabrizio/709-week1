@@ -2,12 +2,15 @@ Reaction Log:
 
 a. What are the top things you learned from these out-of-class readings, videos, and exercises?
    From the video it really helped me understand why there are so many different languages in terms of wanting source code privacy or when you want the code turned to machine code and how.
+   I also learned about printf. I had only ever used print and println before. I knew about print formatting from Python, but had never used it in Java before. I enjoyed using it because the syntax was very straight forward.
 
 b. What information surprised you? What might you share with others or your current/future students?
     I would tell my students that although we might be learning one language specifically in the course, I would explain the reason they will learn multiple langauges and include information about compiling vs interpreting.
+   Another thing that I was surprised by when I was completing the assignment with the dates was how the newlines worked on the print and println. I forgot that the println only adds the newline on the end and not the beginning.
 
 c. What might you consider implementing in your own classroom?
      I know that many students struggle with Java syntax after learning python first, due to the rigidity of the varible typing and the semicolons required. For me I would definitely emphasize these similarly to the textbook by giving a lot of examples.
+   My comment from question b about the newlines with print and println will definitely be tested by my students. I would want them to take the time to notice these differences for themselves, just like I noticed.
 
 d. What do you need to explore more? What the knowledge and skills that you may need to return to in the future to strengthen?
      I decided to use Ubuntu because I used it in my undergrad and it seems fun to me. It is taking a lot of work and remembering to use, especially doing everything command line and working with Nano. I am not used to having to type everything manually. One other thing I am still getting used to is all the necessary commands to get everything to and from GitHub. If you look at the commits you will see I committed the assignment without the files and it took about 8 minutes to figure it out.
