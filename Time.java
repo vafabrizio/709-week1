@@ -17,12 +17,15 @@ public class Time {
     int second = 41;
     System.out.println("Current time: " + hour + ":" + minute + ":" + second);
 
+    //calculate seconds since midnight
     int secondsSinceMidnight = second + (minute*60) + (hour*60*60);
     System.out.println("Seconds since midnight: " + secondsSinceMidnight);
-    
+
+    //calculate seconds until midnight
     int secondsToMidnight = (60 - second) + ((60 - 1 - minute)*60) + ((24 - 1 - hour)*60*60);
     System.out.println("Seconds until midnight: " + secondsToMidnight);
 
+    //percentage of the day that has passed
     int percentageOfDay = (int) (((double) secondsSinceMidnight / 86400.0) * 100);
     System.out.println("Percentage of the Day Passed: " + percentageOfDay + "%");
 
@@ -35,18 +38,21 @@ public class Time {
     int timeSinceMinute = 0;
     int timeSinceSecond = 0;
 
+    //if there are more seconds in the updated time then we can just subtract; otherwise we need to subtract from 60 and then take away from the minutes
     if (newSecond >= second) { timeSinceSecond = newSecond - second; }
     else { 
       timeSinceSecond = 60 - second + newSecond;
       timeSinceMinute--; 
     }
 
+    //if there are more minutes in the updated time then we can just subtract; otherwise we need to subtract from 60 and then take away from the hours
     if (newMinute >= minute) { timeSinceMinute += newMinute - minute; }
     else { 
       timeSinceMinute = 60 - minute + newMinute;
       timeSinceHour--; 
     }
 
+    //if there are more hours in the updated time then we can just subtract; otherwise we need to subtract from 24
     if (newHour >= hour) { timeSinceHour += newHour - hour; }
     else { timeSinceHour = 24 - hour + newHour; }
 
