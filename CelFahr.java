@@ -14,9 +14,7 @@ public class CelFahr {
   public static void main(String[] args) {
     Scanner in = new Scanner(System.in);
     System.out.print("Enter a temperature in Celsius: ");
-    String line = in.nextLine();
-
-    double cel = (double) line;
+    double cel = in.nextDouble();
 
     double fahr = cel * (9.0/5.0) + 32.0;
 
