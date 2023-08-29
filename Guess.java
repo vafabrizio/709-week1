@@ -14,7 +14,7 @@ Read the user input as an integer and display the result. Again, compile and tes
 Compute and display the difference between the user’s guess and the number that was generated.
 */
 
-import java.util.Random;
+import java.util.*;
 
 public class Guess {
   public static void main(String[] args) {
