@@ -12,6 +12,7 @@ public class Seconds {
     System.out.print("Enter an amount of seconds for me to convert: ");
    
     int sec = in.nextInt();
+    int origSec = sec; //making a duplicate for the print at the end
     int min = 0;
     int hour = 0;
 
@@ -28,6 +29,6 @@ public class Seconds {
     }
 
     //output the times
-    System.out.println(sec + " seconds = " + hour + " hours, " + min + " minutes, " + sec + " seconds");
+    System.out.println(origSec + " seconds = " + hour + " hours, " + min + " minutes, " + sec + " seconds");
   }
 }
