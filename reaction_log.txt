@@ -1,15 +1,13 @@
 Reaction Log:
 
 a. What are the top things you learned from these out-of-class readings, videos, and exercises?
-From the video it really helped me understand why there are so many different languages in terms of wanting source code privacy or when you want the code turned to machine code and how.
+   From the video it really helped me understand why there are so many different languages in terms of wanting source code privacy or when you want the code turned to machine code and how.
 
 b. What information surprised you? What might you share with others or your current/future students?
-
+    I would tell my students that although we might be learning one language specifically in the course, I would explain the reason they will learn multiple langauges and include information about compiling vs interpreting.
 
 c. What might you consider implementing in your own classroom?
-
+     I know that many students struggle with Java syntax after learning python first, due to the rigidity of the varible typing and the semicolons required. For me I would definitely emphasize these similarly to the textbook by giving a lot of examples.
 
 d. What do you need to explore more? What the knowledge and skills that you may need to return to in the future to strengthen?
 
-
-e. While it is good to reference specific materials in your discussion, please do not summarize the materials.
